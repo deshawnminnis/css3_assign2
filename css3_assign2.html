@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Positioning my div tage</title>
+</head>
+<style type="text/css">
+    #containerDiv {
+        margin-top: 100px;
+        margin-left: 30px;
+        width: 600px;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid red;
+        background-color: darkcyan
+    }
+    
+    #containerDiv div {
+        margin: 25px;
+        padding: 15px;
+        border: 2px solid blue;
+        background-color: darkturquoise;
+    }
+</style>
+
+<body>
+
+    <div id="containerDiv">
+        <span>this is text in the outer div, not inner!<span>
+    <div>
+        <span>This is some text that will go inside my div for display purposes.</span>
+        <span>This is some additional text within the embedded div for display purposes.</span>
+        <span>Here is the some more text to display within my div containerDiv.</span>
+    </div>
+    </div>
+</body>
+
+</html>
